@@ -1,0 +1,43 @@
+body{
+    background-color: peru;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    }
+
+li {
+    float: left;
+    margin-left: 20%;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
+img{
+    float: left;
+    width: 10%;
+}
+header{
+    margin-bottom: 10%;
+}
+.mainContainer{
+    background-image: url('../source/background.jpg');
+    margin-left: 13.5%;
+    float: left;
+    width: 75%;
+    background-color: lightblue;
+}
+.containerContact{
+    font-size: x-large;
+    text-align: center;
+    width: 75%;
+    float: left;
+    margin-left: 13.5%;
+    color: white;
+}
+
