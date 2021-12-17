@@ -41,3 +41,29 @@ header{
     color: white;
 }
 
+main{
+    width: 75%;
+    float: left;
+    margin-left: 13.5%;
+    margin-top: 80px;
+}
+.galContainer h2{
+    text-align: center;
+}
+.galContainer img{
+    text-align: left;
+    width: 372px;
+    height: 250px;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-bottom: 1px;
+    border: 1px solid transparent;
+    position: relative;
+}
+.galContainer p{
+    float: left;
+  
+
+}
+
