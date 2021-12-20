@@ -73,9 +73,10 @@ div.desc{
 
 div.galContainer{
     margin: 10px;
-    border: 1px solid black;
+    border: 2px solid black;
     float: center;
     width: 220px;
+    border-radius: 4px;
 }
 div.galContainer:hover{
     border: 1px solid #777;
@@ -83,6 +84,7 @@ div.galContainer:hover{
 div.galContainer img{
     width: 100%;
     height: auto;
+    border-radius: 1px;
 }
 div.desc{
     padding: 10px;
