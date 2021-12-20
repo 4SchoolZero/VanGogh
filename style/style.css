@@ -70,3 +70,21 @@ div.desc{
     padding: 15px;
     text-align: center;
 }
+
+div.galContainer{
+    margin: 10px;
+    border: 1px solid black;
+    float: center;
+    width: 220px;
+}
+div.galContainer:hover{
+    border: 1px solid #777;
+}
+div.galContainer img{
+    width: 100%;
+    height: auto;
+}
+div.desc{
+    padding: 10px;
+    text-align: center;
+}
