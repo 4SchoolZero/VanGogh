@@ -47,23 +47,26 @@ main{
     margin-left: 13.5%;
     margin-top: 80px;
 }
-.galContainer h2{
+h2{
     text-align: center;
+
 }
-.galContainer img{
-    text-align: left;
-    width: 372px;
-    height: 250px;
-    display: block;
-    text-align: center;
-    margin-bottom: 10px;
-    margin-bottom: 1px;
-    border: 1px solid transparent;
-    position: relative;
-}
-.galContainer p{
+
+div.galContainer{
+    margin: 10px;
+    border: 1px solid black;
     float: left;
-  
+    width: 220px;
 
 }
-
+div.galContainer:hover{
+    border: 1px solid #777;
+}
+div.galContainer img{
+    width: 100%;
+    height: auto;
+}
+div.desc{
+    padding: 15px;
+    text-align: center;
+}
