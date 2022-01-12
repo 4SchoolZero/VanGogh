@@ -14,21 +14,23 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    background-color: burlywood;
 }
 li a:hover {
     background-color: grey;
 }
-li button{
-    float: right;
-}
 li {
     float: left;
-    margin-right: 4%;
+    margin-left: 7%;
+    margin-right: 8%;
 }
-li img{
+li a {
     display: block;
-    width: 35%;
+    padding: 8px;
+    background-color: burlywood;
+}
+img{
+    float: left;
+    width: 10%;
 }
 header{
     margin-bottom: 10%;
@@ -146,3 +148,8 @@ div.desc{
         min-width: 170px;
       }
     }
+
+      
+p{
+    font-size: medium;
+}
