@@ -14,12 +14,37 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    background-color: burlywood;
+    background-color: rgb(222, 184, 135);
+    border: solid 2px black;
 }
 li a:hover {
     background-color: grey;
 }
-li button{
+nav button{
+    align-items: center;
+    background-color: #fff;
+    border: 2px solid #000;
+    box-sizing: border-box;
+    color: #000;
+    cursor: pointer;
+    display: inline-flex;
+    fill: #000;
+    font-family: Inter,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    height: 48px;
+    justify-content: center;
+    letter-spacing: -.8px;
+    line-height: 24px;
+    min-width: 140px;
+    outline: 0;
+    padding: 0 17px;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
     float: right;
 }
 li {
@@ -40,15 +65,74 @@ header{
     width: 75%;
     background-color: lightblue;
 }
-.containerContact{
-    font-size: x-large;
+.quoteContainer{
+    margin-left: 31.35%;
     text-align: center;
-    width: 75%;
+    width: 30vw;
     float: left;
-    margin-left: 13.5%;
     color: white;
+    font-size: medium;
+    margin-bottom: 5%;
 }
-
+.quoteContainer h1{
+    background-color: rgba(222, 184, 135, 0.664);
+    margin-left: -15%;
+    width: 40vw;
+    font-size: 280%;
+}
+.contactContainer{
+    margin-left: 31.35%;
+    text-align: center;
+    width: 30vw;
+    float: left;
+    color: white;
+    font-size: medium;
+}
+.contactContainer h1{
+    margin-left: -15%;
+    width: 40vw;
+    font-size: 280%;
+}
+.contactContainer p{
+    font-size: 150%;
+    float: right;
+}
+.contactContainer button{
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: rgb(222, 184, 135);
+    border: solid 2px black;
+}
+.contactContainer button:active{
+    transform: scale(0.9);
+}
+.contactContainer input[type="email"]{
+    float: left;
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    background-color: rgba(222, 184, 135, 0.664);
+    color: white;
+}  
+.contactContainer textarea[type="text"]{
+    float: left;
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: rgba(222, 184, 135, 0.664);
+    font-size: 16px;
+    resize: none;
+}  
 main{
     width: 75%;
     float: left;
@@ -59,7 +143,6 @@ h2{
     text-align: center;
 
 }
-
 div.galContainer{
     margin: 10px;
     border: 1px solid black;
@@ -146,3 +229,12 @@ div.desc{
         min-width: 170px;
       }
     }
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
