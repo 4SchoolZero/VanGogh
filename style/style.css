@@ -49,11 +49,17 @@ nav button{
 }
 li {
     float: left;
-    margin-right: 4%;
+    margin-left: 7%;
+    margin-right: 8%;
 }
-li img{
+li a {
     display: block;
-    width: 35%;
+    padding: 8px;
+    background-color: burlywood;
+}
+img{
+    float: left;
+    width: 10%;
 }
 header{
     margin-bottom: 10%;
@@ -183,7 +189,7 @@ div.desc{
 }
 .read-more-btn{
       align-items: center;
-      background-color: #fff;
+      background-color: #c19a6b;
       border: 2px solid #000;
       box-sizing: border-box;
       color: #000;
