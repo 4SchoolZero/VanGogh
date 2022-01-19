@@ -213,6 +213,7 @@ div.desc{
       touch-action: manipulation;
     }
     
+    
     .button-59:focus {
       color: #171e29;
     }
@@ -314,4 +315,13 @@ img {vertical-align: middle;}
     margin-left: 13.5%;
     float: left;
     width: 75%;
+}
+.moreText{
+    display: none;
+}
+.text{
+    font-size: 24px;
+}
+.text.show-more .moreText{
+    display: inline;
 }

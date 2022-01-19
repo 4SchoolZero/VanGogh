@@ -28,3 +28,16 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
+
+const readMoreBtn = document.querySelector('.read-more-btn');
+const text = document.querySelector('.text');
+
+readMoreBtn.addEventListener('click', (e)=>{
+  text.classList.toggle('show-more');
+  if(readMoreBtn.innerText === 'Lees Meer'){
+    readMoreBtn.innerText = 'Read Less';
+  } else{
+    readMoreBtn.innerText = 'Lees Minder';
+  }
+
+})
