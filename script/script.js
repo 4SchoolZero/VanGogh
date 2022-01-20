@@ -35,7 +35,7 @@ const text = document.querySelector('.text');
 readMoreBtn.addEventListener('click', (e)=>{
   text.classList.toggle('show-more');
   if(readMoreBtn.innerText === 'Lees Meer'){
-    readMoreBtn.innerText = 'Read Less';
+    readMoreBtn.innerText = 'Lees meer';
   } else{
     readMoreBtn.innerText = 'Lees Minder';
   }
