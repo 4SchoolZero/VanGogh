@@ -248,7 +248,7 @@ div.desc{
 img {vertical-align: middle;}
 .prev, .next {
     cursor: pointer;
-    top: 50%;
+    top: 50%x;
     width: auto;
     padding: 16px;
     margin-top: -22px;
@@ -324,4 +324,7 @@ img {vertical-align: middle;}
 }
 .text.show-more .moreText{
     display: inline;
+}
+.main_2 .galContainer{
+    margin-left: 10%;
 }

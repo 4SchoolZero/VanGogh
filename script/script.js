@@ -30,10 +30,10 @@ function showSlides(n) {
 }
 
 const readMoreBtn = document.querySelector('.read-more-btn');
-const text = document.querySelector('.text');
+const txt = document.querySelector('.txt');
 
 readMoreBtn.addEventListener('click', (e)=>{
-  text.classList.toggle('show-more');
+  txt.classList.toggle('show-more');
   if(readMoreBtn.innerText === 'Lees Meer'){
     readMoreBtn.innerText = 'Lees meer';
   } else{
