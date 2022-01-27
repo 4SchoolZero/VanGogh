@@ -342,7 +342,6 @@ img {
     visibility: hidden;
     height: 0px;
 }
-#google_translate_element{
-    color: white;
-    font-size: 16px;
-}
+div #google_translate_element div.goog-te-gadget-simple{background-color:burlywood;}
+div #google_translate_element div.goog-te-gadget-simple a.goog-te-menu-value span{color:white}
+div #google_translate_element div.goog-te-gadget-simple a.goog-te-menu-value span:hover{color:rgba(255, 255, 255, 0.397)}
