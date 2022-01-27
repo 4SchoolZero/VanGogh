@@ -9,6 +9,12 @@
     <title>Van Gogh Museum</title>
 </head>
 <body>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+            new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+        }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     <div class="mainContainer">
         <header>
             <nav>
@@ -18,7 +24,8 @@
                     <li><a href="#">Reviews</a></li>
                     <li><a href="#overview">Overzicht</a></li>
                     <li><a href="#history">Geschiedenis</a></li>
-                    <li><button onclick="change();" type="submit">ENG/NL</button></li>
+                    <li><button id="show" type="submit">ENG/NL</button></li>
+                    <div class="google_translate_element"></div>
                 </ul>
             </nav>
         </header>
@@ -137,8 +144,8 @@
                 <p>Tickets</p>
                 <button id="js--btnTicket" class="read-more-btn">Lees meer</button>
             </figure>
-            <div id="js--ticket" class="readMore">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam deserunt repellat nesciunt nihil suscipit voluptas maiores possimus, facilis necessitatibus doloremque autem assumenda voluptatibus ab tempora, neque, quis aliquid! Incidunt, inventore!</p>
+            <div id="js--ticket" class="readMore1">
+                <p>Bij het Van Gogh Museum is iedereen welkom. Bestel je ticket met starttijd online, ook als je een museumkaart of kortingskaart hebt. Zo ben je zeker van een museumbezoek. Eenmaal binnen kun je zolang blijven als je wilt.</p>
             </div>
         </div>
         <div class="galContainer">
@@ -147,8 +154,8 @@
                 <p>Openings tijden</p>
                 <button id="js--btnOpen" class="read-more-btn">Lees meer</button>
             </figure>
-            <div id="js--open" class="readMore">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam deserunt repellat nesciunt nihil suscipit voluptas maiores possimus, facilis necessitatibus doloremque autem assumenda voluptatibus ab tempora, neque, quis aliquid! Incidunt, inventore!</p>
+            <div id="js--open" class="readMore2">
+                <p>Het Van Gogh Museum is weer open en toegankelijk voor iedereen. Bekijk de openingstijden en plan je uitstapje naar Museumplein 6 in Amsterdam</p>
             </div>
         </div>
         <div class="galContainer">
@@ -157,8 +164,12 @@
                 <p>Over het museum</p>
                 <button id="js--btnAbout" class="read-more-btn">Lees meer</button>
             </figure>
-            <div id="js--about" class="readMore">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam deserunt repellat nesciunt nihil suscipit voluptas maiores possimus, facilis necessitatibus doloremque autem assumenda voluptatibus ab tempora, neque, quis aliquid! Incidunt, inventore!</p>
+            <div id="js--about" class="readMore3">
+                <p>Het Strategisch Plan bepaalt de koers voor de jaren 2021-2024. Een nieuwe focus voor het Van Gogh Museum is noodzakelijk en ook iets om naar uit te kijken.
+
+                    Er is een nieuw geformuleerde missie, die weliswaar geen grote koerswijziging betekent, maar beter past bij wie het museum is: een inclusief museum dat mensen wil inspireren met het leven van Vincent van Gogh, zijn werk en zijn tijd.
+                    
+                    De nieuwe kernwaarden vormen het kompas dat de activiteiten richting geeft. De visie is de stip op de horizon: een museum dat vooroploopt met alle activiteiten die worden ondernomen.</p>
             </div>
         </div>
     </div>

@@ -2,34 +2,21 @@ const text = document.getElementById('txt');
 const ticketBtn = document.getElementById('js--btnTicket');
 const ticket = document.getElementById('js--ticket');
 const opening = document.getElementById('js--open');
-const openBtn = document.getElementById('js--BtnOpen');
+const openBtn = document.getElementById('js--btnOpen');
 const about = document.getElementById('js--about');
 const aboutBtn = document.getElementById('js--btnAbout');
-
-onclick.ticketBtn = function(){
+ticketBtn.onclick = function(){
   ticket.style.visibility = 'visible';
 }
-onclick.openBtn = function(){
+openBtn.onclick = function(){
   opening.style.visibility = 'visible';
 }
-onclick.aboutBtn = function(){
+aboutBtn.onclick = function(){
   about.style.visibility = 'visible';
 }
-
-function change(){
-    text.innerHTML = "Your life would be very empty if you didn't regret anything.";
-}
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
+// function change(){
+//     text.innerHTML = "Your life would be very empty if you didn't regret anything.";
+// }
 function showSlides(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
@@ -45,7 +32,16 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
+var slideIndex = 1;
+showSlides(slideIndex);
 
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
 const readMoreBtn = document.querySelector('.read-more-btn');
 const txt = document.querySelector('.txt');
 

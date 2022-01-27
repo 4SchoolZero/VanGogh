@@ -244,8 +244,12 @@ div.desc{
     vertical-align: baseline;
     background: transparent;
 }
-.mySlides {display: none}
-img {vertical-align: middle;}
+.mySlides {
+    display: none;
+}
+img {
+    vertical-align: middle;
+}
 .prev, .next {
     cursor: pointer;
     top: 50%x;
@@ -334,6 +338,7 @@ img {vertical-align: middle;}
 .main_2 h2, main h2{
     font-size: 180%;
 }
-.readMore{
+.readMore1, .readMore2, .readMore3{
     visibility: hidden;
+    height: 0px;
 }
