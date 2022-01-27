@@ -342,3 +342,7 @@ img {
     visibility: hidden;
     height: 0px;
 }
+#google_translate_element{
+    color: white;
+    font-size: 16px;
+}
