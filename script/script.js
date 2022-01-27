@@ -1,4 +1,21 @@
 const text = document.getElementById('txt');
+const ticketBtn = document.getElementById('js--btnTicket');
+const ticket = document.getElementById('js--ticket');
+const opening = document.getElementById('js--open');
+const openBtn = document.getElementById('js--BtnOpen');
+const about = document.getElementById('js--about');
+const aboutBtn = document.getElementById('js--btnAbout');
+
+onclick.ticketBtn = function(){
+  ticket.style.visibility = 'visible';
+}
+onclick.openBtn = function(){
+  opening.style.visibility = 'visible';
+}
+onclick.aboutBtn = function(){
+  about.style.visibility = 'visible';
+}
+
 function change(){
     text.innerHTML = "Your life would be very empty if you didn't regret anything.";
 }
