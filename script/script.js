@@ -14,6 +14,12 @@ openBtn.onclick = function(){
 aboutBtn.onclick = function(){
   about.style.visibility = 'visible';
 }
+$('[lang="es"]').hide();
+
+$('#switch-lang').click(function() {
+  $('[lang="es"]').toggle();
+  $('[lang="en"]').toggle();
+});
 // function change(){
 //     text.innerHTML = "Your life would be very empty if you didn't regret anything.";
 // }

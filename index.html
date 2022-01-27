@@ -9,12 +9,12 @@
     <title>Van Gogh Museum</title>
 </head>
 <body>
-    <script type="text/javascript">
+    <script type="text/javascript" defer>
         function googleTranslateElementInit() {
             new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
         }
     </script>
-    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit" defer></script>
     <div class="mainContainer">
         <header>
             <nav>
@@ -25,7 +25,7 @@
                     <li><a href="#overview">Overzicht</a></li>
                     <li><a href="#history">Geschiedenis</a></li>
                     <li><button id="show" type="submit">ENG/NL</button></li>
-                    <div class="google_translate_element"></div>
+                    <div id="google_translate_element"></div>
                 </ul>
             </nav>
         </header>
