@@ -5,6 +5,55 @@ const opening = document.getElementById('js--open');
 const openBtn = document.getElementById('js--btnOpen');
 const about = document.getElementById('js--about');
 const aboutBtn = document.getElementById('js--btnAbout');
+const input = document.getElementById("js--input");
+const title = document.getElementById("js--title");
+const img = document.getElementById("js--img");
+
+let loc = [
+    {
+        "title":"plaats 0",
+        "image":"source/1.jpeg"
+    },
+    {
+        "title":"plaats 1",
+        "image":"source/2.jpeg"
+    },
+    {
+        "title":"plaats 2",
+        "image":"source/palet.jpeg"
+    },
+    {
+        "title":"plaats 3",
+        "image":"source/4.jpeg"
+    },
+    {
+        "title":"plaats 4",
+        "image":"source/5.jpeg"
+    },
+    {
+        "title":"plaats 5",
+        "image":"source/6.jpeg"
+    },
+    {
+        "title":"plaats 6",
+        "image":"source/bloodline.jpeg"
+    },
+    {
+        "title":"plaats 7",
+        "image":"source/paris.jpeg"
+}];
+
+function show(x){
+    title.innerHTML = loc[x].title;
+    img.src = loc[x].image;
+}
+
+function getInput(){
+    show(input.value);
+    input.value = "";
+}
+
+
 ticketBtn.onclick = function(){
   ticket.style.visibility = 'visible';
 }
@@ -14,12 +63,6 @@ openBtn.onclick = function(){
 aboutBtn.onclick = function(){
   about.style.visibility = 'visible';
 }
-$('[lang="es"]').hide();
-
-$('#switch-lang').click(function() {
-  $('[lang="es"]').toggle();
-  $('[lang="en"]').toggle();
-});
 // function change(){
 //     text.innerHTML = "Your life would be very empty if you didn't regret anything.";
 // }
@@ -58,5 +101,4 @@ readMoreBtn.addEventListener('click', (e)=>{
   } else{
     readMoreBtn.innerText = 'Lees Minder';
   }
-
 })

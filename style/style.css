@@ -345,3 +345,26 @@ img {
 div #google_translate_element div.goog-te-gadget-simple{background-color:burlywood;}
 div #google_translate_element div.goog-te-gadget-simple a.goog-te-menu-value span{color:white}
 div #google_translate_element div.goog-te-gadget-simple a.goog-te-menu-value span:hover{color:rgba(255, 255, 255, 0.397)}
+
+.container{
+    width: 800px;
+    height: auto;
+    background-color: #c19a6b;
+    margin: 50px auto auto auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    border: solid 2px black;
+}
+.container > img{
+    float: left;
+    width: 400px;
+    height: 600px;
+    object-fit: cover;
+}
+.myInteraction > input{
+    background-color: white;
+}
+.title{
+    padding: 10px;
+    font-size: 180%;
+}
